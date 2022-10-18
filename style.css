@@ -285,6 +285,7 @@ TYPE OF COFFEE
 
 .coffee__img {
   width: 90%;
+  border-radius: 50%;
 }
 
 .coffee__descr {
