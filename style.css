@@ -164,7 +164,7 @@ BANNER
   position: relative;
 }
 
-.banner__overlay2 {
+.banner__overlay {
   position: absolute;
   top: 0;
   left: 0;
