@@ -512,7 +512,7 @@ RESPONSIVE
     margin-bottom: 15px;
   }
   .footer__half {
-    width: 100%;
+    width: 100vw;
     display: block;
     padding: 50px 50px;
   }
