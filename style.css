@@ -347,14 +347,15 @@ STORY
 GREAT COFFEE
 ---------------------------------*/
 .sect--great {
-  background-image: url("https://st4.depositphotos.com/1532932/26538/i/450/depositphotos_265382642-stock-photo-3d-render-of-neon-frame.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #fff;
+  background-color: #000;
   color: #fff;
-  min-height: 65vh;
+  min-height: 80vh;
+  border: 12px solid lightblue;
+  border-style: inset;
 }
 
 /*--------------------------------
