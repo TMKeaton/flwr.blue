@@ -4,15 +4,20 @@
 RESET
 ---------------------------------*/
 * {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Lato';
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  max-width: 100vw;
   height: 100%;
+  background-color: #000;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /*--------------------------------
@@ -31,10 +36,11 @@ p {
   font-size: 11px;
   letter-spacing: 3px;
   font-weight: 500;
-  background-color: #daa37f;
+  background-color: #000;
   border-radius: 0;
   text-align: center;
   text-transform: uppercase;
+  border-color: #fff;
 }
 
 .btn--opacity {
@@ -44,8 +50,8 @@ p {
 .sect {
   padding: 130px 0;
 }
-.sect--brown {
-  background-color: #1d140b;
+.sect--black {
+  background-color: #000;
 }
 
 .sect--grey {
@@ -153,7 +159,7 @@ BANNER
   background-size: cover;
   background-attachment: fixed;
   display: table;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   position: relative;
 }
@@ -162,7 +168,7 @@ BANNER
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   display: table;
   height: 100%;
   text-align: center;
@@ -208,11 +214,22 @@ BANNER
 TYPE OF COFFEE
 ---------------------------------*/
 .sect--type {
-  background-image: url("https://img1.goodfon.com/wallpaper/nbig/d/d9/art-cvetok-lepestki-iskry.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #fff;
+  background-color: #ebebeb;
+  border: 8px solid #000;
+  border-top: none;
+}
+
+.sect--type2 {
+  background-image: url("https://wallpapercave.com/wp/wp7868377.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  min-height: 100vh;
+  text-align: left;
 }
 
 .sect__title {
@@ -221,18 +238,40 @@ TYPE OF COFFEE
   line-height: 40px;
   font-size: 30px;
   margin-bottom: 20px;
+  color: #000;
+}
+
+.no-margin {
+  margin: 35px;
+}
+
+.sect__title2 {
+  margin-top: 0;
+  text-transform: uppercase;
+  line-height: 40px;
+  font-size: 30px;
+  margin-bottom: 20px;
   color: #fff;
+  text-align: left;
+  padding: 0px;
 }
 
 .sect__subtitle {
   margin-bottom: 0;
+  color: #000;
+  padding: 5px;
+}
+
+.sect__subtitle2 {
+  margin-bottom: 0;
   color: #fff;
   padding: 5px;
+  text-align: left;
 }
 
 .coffee {
   padding: 0 25px;
-  color: #fff;
+  color: #000;
 }
 
 .coffee__name {
@@ -251,7 +290,7 @@ TYPE OF COFFEE
 .coffee__descr {
   margin: 0;
   line-height: 23px;
-  color: #fff;
+  color: #000;
 }
 
 /*--------------------------------
@@ -259,7 +298,7 @@ STORY
 ---------------------------------*/
 
 .story-img {
-  background-image: url("https://image.ibb.co/kc6XKG/section_bg_12.jpg");
+  background-image: url("https://wallpapercave.com/wp/wp7868377.jpg");
   height: 0;
   padding-bottom: 52%;
   background-position: top center;
@@ -292,6 +331,7 @@ STORY
 
 .description__p {
   margin-bottom: 40px;
+  color: #fff;
 }
 
 .description__title {
@@ -303,134 +343,14 @@ STORY
 GREAT COFFEE
 ---------------------------------*/
 .sect--great {
-  background-image: url("https://c.pxhere.com/images/ab/d5/56e98e383837a5dddf48b316bbcf-1615905.png!d");
+  background-image: url("https://img1.goodfon.com/wallpaper/nbig/d/d9/art-cvetok-lepestki-iskry.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #fff;
   color: #fff;
-}
-
-/*--------------------------------
-THE BEST COFFEE SHOP
----------------------------------*/
-.sect--best {
-  background-image: url("https://image.ibb.co/mh6S3b/section_bg_3.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 160px 0;
-  background-color: #000;
-}
-
-.best__title {
-  letter-spacing: 1px;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin-top: 25px;
-  margin-bottom: 15px;
-  color: #daa37f;
-}
-
-.best__img {
-  width: 50px;
-}
-
-.best--margin {
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.best--bottom {
-  margin-bottom: 40px;
-}
-/*--------------------------------
-THREE IMAGES
----------------------------------*/
-.three-img__img {
-  height: 0;
-  padding-bottom: 33.3%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.three-img {
-  display: table;
-  height: 33.3%;
-  width: 100%;
-}
-
-.three-img--1 {
-  background-image: url("http://image.ibb.co/jjTnKG/gallery_coffee_image_1.jpg");
-}
-
-.three-img--2 {
-  background-image: url("http://image.ibb.co/iKxmDb/gallery_coffee_image_2_1.jpg");
-}
-
-.three-img--3 {
-  background-image: url("http://image.ibb.co/b5qTRw/gallery_coffee_image_5.jpg");
-}
-
-/*--------------------------------
-BLOG IMAGES
----------------------------------*/
-
-.last-articles {
-  margin-top: 50px;
-}
-.article-pre__img {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding-bottom: 80%;
-}
-
-.article-pre {
-  background-color: #fff;
-}
-
-.article-pre__title {
-  letter-spacing: 1px;
-  font-size: 16px;
-  margin-top: 0;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.article-pre__date {
-  color: #767676;
-  line-height: 23px;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 0;
-  margin-bottom: 5px;
-  display: inline-block;
-  font-family: "Nunito", sans-serif;
-}
-
-.article-pre__info {
-  padding: 25px 20px 20px 20px;
-}
-.article-pre__ex {
-  margin: 0;
-  line-height: 22px;
-}
-
-.article-pre-1 .article-pre__img {
-  background-image: url("https://images.pexels.com/photos/374592/pexels-photo-374592.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
-}
-
-.article-pre-2 .article-pre__img {
-  background-image: url("https://images.pexels.com/photos/64775/pexels-photo-64775.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
-}
-
-.article-pre-3 .article-pre__img {
-  background-image: url("https://static.pexels.com/photos/373888/pexels-photo-373888.jpeg");
+  min-height: 100vh;
 }
 
 /*--------------------------------
@@ -438,7 +358,6 @@ FOOTER
 ---------------------------------*/
 .footer {
   display: table;
-  width: 100%;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -452,7 +371,7 @@ FOOTER
 }
 
 .footer__half-1 {
-  background-image: url("https://image.ibb.co/mRGjDm/section_bg_7.jpg");
+  background-image: url("https://st3.depositphotos.com/16095826/35376/i/450/depositphotos_353760394-stock-photo-beautiful-bright-blue-light-neon.jpg");
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
