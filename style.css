@@ -151,10 +151,12 @@ ANIOMATION
 
 /*--------------------------------
 BANNER
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8f95e2d4-bb7d-4146-a0c6-9ec71bc4df16/da7gwz7-0ce9bd38-6cf1-4581-ba52-8319d3db99c4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhmOTVlMmQ0LWJiN2QtNDE0Ni1hMGM2LTllYzcxYmM0ZGYxNlwvZGE3Z3d6Ny0wY2U5YmQzOC02Y2YxLTQ1ODEtYmE1Mi04MzE5ZDNkYjk5YzQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Y9ud2yWfipFtzagkZ--rAVZEaXL2s3FMK457WOr4oIM");
+
 ---------------------------------*/
 .banner {
-  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8f95e2d4-bb7d-4146-a0c6-9ec71bc4df16/da7gwz7-0ce9bd38-6cf1-4581-ba52-8319d3db99c4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhmOTVlMmQ0LWJiN2QtNDE0Ni1hMGM2LTllYzcxYmM0ZGYxNlwvZGE3Z3d6Ny0wY2U5YmQzOC02Y2YxLTQ1ODEtYmE1Mi04MzE5ZDNkYjk5YzQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Y9ud2yWfipFtzagkZ--rAVZEaXL2s3FMK457WOr4oIM");
-  background-color: #fff;
+  background-image: url("img/banner.png");
+  background-color: #000;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
